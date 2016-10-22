@@ -1,0 +1,369 @@
+/* setting the background*/
+body{
+	height: 100%;
+	margin: 0 auto;
+	background-image: url(../images/backgroundimage.png);
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+
+/*  Main Content Container Width*/
+.container1{
+	width: 960px;
+}
+
+
+/* Main Header */
+#main-header{
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding: 40px;
+	position: relative;
+}
+
+
+/* My Logo */
+#logo{
+	background-color: #4aaaa5;
+	width: 150px;
+	padding: 20px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0;
+	left: 70px;
+}
+
+
+/* Nav Bar Style */
+.nav-bar{
+	margin: 40px;
+	background-color: #4aaaa5;
+}
+.nav-bar ul{
+	float: right;
+	width: 540px;
+}
+.nav-bar ul li{
+	display: inline-block;
+	float: left;	 
+}
+.nav-bar a {
+	color: #777777;
+	display: inline-block;
+	padding: 0px 10px;
+	margin: 0px 10px;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+a:hover { 
+    background-color: #4aaaac;
+    padding: 10px;
+}
+
+li+li{
+	border-left: 1px solid #777777;
+}
+
+
+/* Main Section */
+.main-section{
+	width: 500px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 70px;
+	margin-right: 10px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	float: left;
+
+}
+
+ /* Profile Pic Styling */
+
+#profilepic{
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	height: 150px;
+	width: 200px;
+	display: inline;
+}
+
+/* Aside */
+.sidebar{
+	width: 220px;
+	margin-top: 30px;
+	margin-left: 30px;
+	padding: 10px;
+	text-align: center;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	display: inline-block;
+	float: left;
+}
+
+
+/* Footer */
+
+#footer{
+	background-color: #666666;
+	color: #ffffff;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding: 20px;
+	line-height: 40px;
+	border-top: 5px solid #4aaaa5;
+	clear: both;
+}
+
+ /* Portfolio Page Styling */
+
+ /* Portfolio Section */
+.portfolio-section{
+	width: 500px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 70px;
+	margin-right: 10px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	float: left;
+}
+
+
+/* Portfolio Page Images Styling */
+
+.pimages{
+	display: inline;
+	float: left;
+}
+
+#pimage1{
+	height: 150px;
+	width: 200px;
+	padding: 10px;
+}
+
+.imagecontainer1{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+.tag1{
+   	position: absolute;
+   	bottom: 5px;
+   	left: 20px;
+   	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+   	z-index: 1;
+   	background-color: #4aaaac;
+   	color: #ffffff;
+   	text-align: center;
+}
+
+#pimage2{
+	height: 150px;
+	width: 200px;
+	padding: 10px; 
+}
+
+.imagecontainer2{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+.tag2{
+   	position: absolute;
+   	bottom: 5px;
+   	left: 20px;
+   	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+   	z-index: 1;
+   	background-color: #4aaaac;
+   	color: #ffffff;
+   	text-align: center;
+}
+
+#pimage3{
+	height: 150px;
+	width: 200px;
+	padding: 10px;
+}
+
+.imagecontainer3{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+.tag3{
+   	position: absolute;
+   	bottom: 5px;
+   	left: 20px;
+   	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+   	z-index: 1;
+   	background-color: #4aaaac;
+   	color: #ffffff;
+   	text-align: center;
+}
+
+#pimage4{
+	height: 150px;
+	width: 200px;
+	padding: 10px;
+}
+
+.imagecontainer4{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+.tag4{
+   	position: absolute;
+   	bottom: 5px;
+   	left: 20px;
+   	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+   	z-index: 1;
+   	background-color: #4aaaac;
+   	color: #ffffff;
+   	text-align: center;
+}
+
+#pimage5{
+	height: 150px;
+	width: 200px;
+	padding: 10px;
+}
+
+.imagecontainer5{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	float: left;
+	padding: 10px;
+}
+
+.tag5{
+   	position: absolute;
+   	bottom: 5px;
+   	left: 20px;
+   	width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+   	z-index: 1;
+   	background-color: #4aaaac;
+   	color: #ffffff;
+   	text-align: center;
+}
+
+
+/* Contact Page styling */
+
+/* Contact Section */
+.contact-section{
+	width: 500px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 70px;
+	margin-right: 10px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	float: left;
+}
+
+
+/* Styling Form Elements */
+
+input {
+	width: 90%;
+    padding: 10px 20px;
+    margin: 4px 0;
+    font-family: inherit;
+}
+
+.button {
+	width: 20%;
+	background-color: #4aaaac;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+textarea{
+	width: 90%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Typography For All Pages*/
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h2{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	color: #4aaaa5;
+	margin: 20px;
+	font-weight: bold;
+}
+
+h3{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	color: #4aaaa5;
+	margin: 20px;
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 180%;
+	margin: 10px;
+	color: #777777;
+}
+
+hr{
+	color: #777777;
+	border: 1px solid #dddddd;
+}
+
